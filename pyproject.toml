@@ -1,0 +1,14 @@
+[project]
+name = "fingerboard-jig"
+version = "0.1.0"
+description = "Parametric build123d viola da gamba fingerboard planing jig"
+requires-python = ">=3.11"
+dependencies = [
+    "build123d>=0.10,<0.12",
+]
+
+[project.optional-dependencies]
+viewer = ["ocp-vscode>=2.9"]
+
+[tool.ruff]
+line-length = 100
